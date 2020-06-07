@@ -108,7 +108,7 @@ section a:focus {
 
 .image1 {
 	width: 40vw;
-	height: auto;
+	max-height: 70vh;
 	-o-object-position: center center;
 	   object-position: center center;
 	position: relative;
@@ -116,8 +116,8 @@ section a:focus {
 }
 
 .image2{
-	width: 20vw;
-	height: auto;
+	width: 22vw;
+	max-height: 70vh;
 	-o-object-position: top;
 	   object-position: top; 
 }
