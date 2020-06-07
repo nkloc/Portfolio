@@ -473,6 +473,8 @@ a {
 		-webkit-transition: 0.5s;
 		-o-transition: 0.5s;
 		transition: 0.5s;
+		border-left: 5px double white;
+		padding-left: 8px;
 		-webkit-transform: translateX(5px);
 		    -ms-transform: translateX(5px);
 		        transform: translateX(5px);
@@ -481,6 +483,8 @@ a {
 		-webkit-transition: 0.5s;
 		-o-transition: 0.5s;
 		transition: 0.5s;	
+		border-right: 5px double white;
+		padding-right: 8px;
 		-webkit-transform: translateX(-2px);
 		    -ms-transform: translateX(-2px);
 		        transform: translateX(-2px);
