@@ -29,7 +29,6 @@ section{
 	        flex-direction: column;
 	margin: 0 auto;
 }
-
 .project{
 	height: 30vh;
 	display: -webkit-box;
@@ -47,6 +46,12 @@ section{
 	        align-items: center;
 	margin-top: 30vh;
 	margin-bottom: 20%;
+	filter: grayscale(100%);
+
+}
+.project:hover{
+	transition: 2s;
+	filter: none;
 }
 .project img{
 	-o-object-fit: cover;
@@ -75,7 +80,7 @@ section .text{
 	padding-top: 4%;
 }
 
-section a{
+.text a{
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
@@ -84,8 +89,8 @@ section a{
 	font-size: 1.5vw;
 }
 
-section a:hover,
-section a:focus {
+.text a:hover,
+.text a:focus {
 		-webkit-transition: 0.8s;
 		-o-transition: 0.8s;
 		transition: 0.8s;
@@ -110,18 +115,17 @@ section a:focus {
 	width: 40vw;
 	max-height: 70vh;
 	-o-object-position: center center;
-	   object-position: center center;
+	object-position: center center;
 	position: relative;
 	left: 10%;
 }
 
 .image2{
-	width: 22vw;
+	width: 20vw;
 	max-height: 70vh;
 	-o-object-position: top;
-	   object-position: top; 
+	object-position: top; 
 }
-
 
 .goback::before{
 
@@ -159,6 +163,7 @@ section a:focus {
 		    -ms-flex-align: center;
 		        align-items: center;
 		margin-top: 6vh;
+		filter: none;
 	}
 
 	.text a{
@@ -181,16 +186,19 @@ section a:focus {
 		width: 60vw;
 		height: auto;
 		-o-object-position: center center;
-		   object-position: center center;
+		object-position: center center;
 		position: relative;
 		left: 10%;
+		filter: none;
 	}
 
 	.image2{
 		width: 30vw;
 		height: auto;
 		-o-object-position: top;
-		   object-position: top; 
+		object-position: top; 
+		filter: none;
+
 	}
 	
 	.trait{
